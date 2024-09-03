@@ -14,7 +14,7 @@ app.get( '/', (req , res) => {
                   Publisher:"SamkeloZondi",
                   
                 }
-    res.json(book.Tittle)
+    res.json(book)
     res.send('Philasto ')
 })
 
