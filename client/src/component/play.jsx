@@ -121,7 +121,10 @@ const Card = () => {
           )
         )}
       </div>
+      <Addbook></Addbook>
+      {/* <RegisterUser></RegisterUser> */}
     </div>
+    
   );
 };
 

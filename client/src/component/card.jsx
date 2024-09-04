@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import Addbook from '../pages/addBook';
 
+
 const Card = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -121,7 +122,10 @@ const Card = () => {
           )
         )}
       </div>
+      <Addbook></Addbook>
+      <RegisterUser></RegisterUser>
     </div>
+    
   );
 };
 
